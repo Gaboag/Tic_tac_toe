@@ -1,0 +1,22 @@
+.score-board {
+    width: 320px;
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 5px;
+    margin: auto;
+}
+
+.score-board div {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #10B286;
+    border-radius: 20px;
+    
+}
+
+.score-board div:first-child {
+    background-color: #FFB84D;
+}
